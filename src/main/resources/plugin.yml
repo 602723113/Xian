@@ -1,0 +1,6 @@
+name: Zentia
+version: '${version}'
+main: top.zoyn.zentia.Zentia
+api-version: 1.16
+authors: [ Zoyn ]
+description: 寻仙!
