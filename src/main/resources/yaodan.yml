@@ -1,0 +1,15 @@
+金:
+  display-name: "§6%level%级金属性妖丹"
+  material: YELLOW_DYE
+木:
+  display-name: "§2%level%级木属性妖丹"
+  material: GREEN_DYE
+水:
+  display-name: "§b%level%级水属性妖丹"
+  material: LIGHT_BLUE_DYE
+火:
+  display-name: "§c%level%级火属性妖丹"
+  material: RED_DYE
+土:
+  display-name: "§4%level%级土属性妖丹"
+  material: BROWN_DYE
