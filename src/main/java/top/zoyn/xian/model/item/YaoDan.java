@@ -1,4 +1,4 @@
-package top.zoyn.zentia.model.item;
+package top.zoyn.xian.model.item;
 
 /**
  * 代表一枚妖丹

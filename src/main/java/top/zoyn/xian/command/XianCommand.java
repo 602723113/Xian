@@ -1,13 +1,13 @@
-package top.zoyn.zentia.command;
+package top.zoyn.xian.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import top.zoyn.zentia.manager.ItemManager;
-import top.zoyn.zentia.utils.PageableInventory;
+import top.zoyn.xian.manager.ItemManager;
+import top.zoyn.xian.utils.PageableInventory;
 
-public class ZentiaCommand implements CommandExecutor {
+public class XianCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {

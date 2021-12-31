@@ -1,10 +1,11 @@
 plugins {
     id 'java'
+    id "com.github.johnrengelman.shadow" version "7.1.2"
 }
 
 group = 'top.zoyn.zentia'
 version = '1.0.0-SNAPSHOT'
-archivesBaseName  = '[寻仙]Zentia'
+archivesBaseName = '[修真]Xian'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 repositories {
@@ -19,8 +20,15 @@ repositories {
     }
 }
 
+shadowJar {
+    dependencies {
+        include(dependency('com.github.cryptomorin:XSeries:8.5.0.1'))
+    }
+}
+
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+    implementation 'com.github.cryptomorin:XSeries:8.5.0.1'
 }
 
 def targetJavaVersion = 8

@@ -1,4 +1,4 @@
-package top.zoyn.zentia.utils;
+package top.zoyn.xian.utils;
 
 import com.google.common.collect.Lists;
 import org.bukkit.Bukkit;

@@ -1,8 +1,14 @@
-name: Zentia
+name: Xian
 version: '${version}'
-main: top.zoyn.zentia.Zentia
+main: top.zoyn.xian.Xian
 api-version: 1.13
 authors: [ Zoyn ]
-description: 寻仙!
 commands:
-  zentia:
+  xian:
+    aliases:
+      - xiuxian
+      - xunxian
+      - zentia
+      - xiuzhen
+      - xx
+    description: "修真插件主要命令"

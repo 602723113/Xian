@@ -1,4 +1,4 @@
-package top.zoyn.zentia.utils;
+package top.zoyn.xian.utils;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
