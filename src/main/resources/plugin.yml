@@ -1,7 +1,7 @@
 name: Zentia
 version: '${version}'
 main: top.zoyn.zentia.Zentia
-api-version: 1.16
+api-version: 1.13
 authors: [ Zoyn ]
 description: 寻仙!
 commands:
